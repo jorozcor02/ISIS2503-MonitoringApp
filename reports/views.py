@@ -28,4 +28,4 @@ def report_create(request):
         'form': form,
     }
 
-    return render(request, 'Report/reportCreate.html', context)
+    return render(request, 'Measurement/reportCreate.html', context)
