@@ -10,7 +10,7 @@ def report_list(request):
     context = {
         'report_list': reports
     }
-    return render(request, 'Report/reports.html', context)
+    return render(request, 'Measurement/reports.html', context)
 
 def report_create(request):
     if request.method == 'POST':
